@@ -12,8 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.6.6",
-    "mongodb": "^3.7.3",
     "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
     "type-graphql": "^1.1.1",
     "typeorm": "^0.3.4"
   },
