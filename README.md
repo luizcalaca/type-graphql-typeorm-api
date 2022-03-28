@@ -7,6 +7,34 @@ npm install
 npm start
 ```
 
+## Running Apollo Server
+
+```
+mutation CreateBook($data: CreateBookInput!) {
+  createBook(data: $data) {
+    title
+    author
+  }
+}
+```
+
+```
+{
+  "data": {
+    "title": "Hello",
+    "author": "Marcos"
+  }
+}
+```
+
+```
+query Query {
+  books {
+    title
+  }
+}
+```
+
 ### Dependencies
 
 ```
