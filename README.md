@@ -1,11 +1,18 @@
 # GraphQL APIs with TypeGraphQL and TypeORM
 
+### Run project
+
+```
+npm install
+npm start
+```
+
 ### Dependencies
 
 ```
-npm install apollo-server type-graphql typeorm reflect-metadata
+apollo-server type-graphql typeorm reflect-metadata
 
-npm install -D typescript ts-node nodemon
+typescript ts-node nodemon
 ```
 
 - Apollo Server to build and run our GraphQL server
